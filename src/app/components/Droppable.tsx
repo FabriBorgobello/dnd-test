@@ -1,6 +1,6 @@
 'use client';
 import { useDroppable } from '@dnd-kit/core';
-import { type Container } from './Languages';
+import { type Container } from '../types';
 
 interface DroppableProps {
   children: React.ReactNode;

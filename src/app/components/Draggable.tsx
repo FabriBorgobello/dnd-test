@@ -1,6 +1,6 @@
 'use client';
 import { useDraggable } from '@dnd-kit/core';
-import { type Language } from './Languages';
+import { Language } from '../types';
 
 interface DraggableProps {
   data: Language;
